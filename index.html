@@ -17,7 +17,9 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
-      <a class="navbar-brand" href="#">___</a>
+      <a class="navbar-brand" href="#">
+      <img src="images/logo.svg" style="width:70px; padding:1px 1px">
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -25,6 +27,9 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="#features">Características</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Testimonios</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contacto</a>
@@ -35,10 +40,10 @@
   </nav>
 
   <!-- Hero Section -->
-  <section class="section text-center">
+  <section class="section text-right" id="home">
     <div class="container">
-      <h1 class="display-4">Bienvenido a tu próxima inversión</h1>
-      <p class="lead">Invierte en tu futuro</p>
+      <h1 class="display-3">Caroline Sada</h1>
+      <p class="lead">Te ayudo a inviertir en tu futuro.</p>
       <a href="#contact" class="btn btn-primary btn-lg cta-btn">Contáctame</a>
     </div>
 </section>
@@ -67,11 +72,50 @@
     </div>
   </section>
 
+  <!-- Testimonials -->
+  <section class="testimonials text-center bg-light" id="testimonials">
+    <div class="container">
+      <h2 class="mb-5">¿Qué dicen mis clientes?</h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="testimonials-item mx-auto mb-5 mb-lg-0">
+            <img src="images/testimonials-1.svg" class="img-fluid rounded-circle mb-3" alt="">
+            <h5>Aurelia R.</h5>
+            <p class="font-weight-light mb-0">"Antes de conocer a Caro me sentía desorientada con todos los temas fiscales. Mi anterior 
+              gestor hacía cosas sin explicarme nada. Ahora sí me siento segura y acompañada y sé que estoy 
+              pagando por un servicio que tiene sentido y está justificado por todo lo que ofrece."</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="testimonials-item mx-auto mb-5 mb-lg-0">
+            <img src="images/testimonials-2.svg" class="img-fluid rounded-circle mb-3" alt="">
+            <h5>Cirilo A.</h5>
+            <p class="font-weight-light mb-0">"Conocí a Caro porque me la recomendaron, lo cual me ha dado tranquilidad. Ella está
+              muy comprometida con su trabajo, me ha brindado mucha información que desconocía y siempre está
+              presente cuando lo necesito."</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="testimonials-item mx-auto mb-5 mb-lg-0">
+            <img src="images/testimonials-3.svg" class="img-fluid rounded-circle mb-3" alt="">
+            <h5>Faustina A.</h5>
+            <p class="font-weight-light mb-0">"Desde el primer momento me transmitió confianza
+              y tranquilidad, eso fue determinante a la hora de decantarme por sus servicios. Tener la
+              tranquilidad que mis inversiones están siendo guiadas de la manera más óptima es realmente
+              fantástico."</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Contact Section -->
   <section class="section bg-dark text-white" id="contact">
     <div class="container">
       <h2 class="section-heading text-center">Contáctame</h2>
-      <p class="lead text-center mb-5">Déjame un mensaje y me pondre en contacto contigo lo antes posible.</p>
+      <p class="lead text-center mb-5">Deja aquí tus datos y te mantendré al tanto de las últimas modificaciones e incentivos fiscales.
+        Además, te envío de regalo por email la guía "Los gastos que sí puedo deducir para ahorrar más".</p>
       <div class="row">
         <div class="col-md-6 mx-auto">
             <form id="contactForm" class="needs-validation mt-3" novalidate>
@@ -100,12 +144,65 @@
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="footer">
+
+  <!-- Footer Section -->
+  <footer class="footer p-5 text-light">
     <div class="container">
-      <span>&copy; 2024 Todos los derechos reservados.</span>
+        <div class="row mt-4">
+          <div class="col-md-4 my-3">
+            <h2 class="text-warning mb-3">Sobre Caroline</h2>
+            <p class="lead">
+              Soy Caroline (@caro_sada) y estoy aquí para ayudarte a invertir. Cuento con la Certificación CFA Nivel III, CAIA y FRM.
+            </p>
+          </div>
+
+          <div class="col-md-4 my-3">
+            <h2 class="text-warning mb-3">Enlaces</h2>
+            <ul class="list-unstyled">
+              <li class="mb-3"><a href="#">Inicio</a></li>
+              <li class="mb-3"><a href="#features">Características</a></li>
+              <li class="mb-3"><a href="#testimonials">Testimonios</a></li>
+              <li class="mb-3"><a href="#contact">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 my-3">
+            <h2 class="text-warning mb-3">Conecta conmigo</h2>
+            <div class="gap-3 text-light">
+              <a href="#"><i class="fab fa-facebook fa-3x text-light"></i></a>
+              <a href="#"><i class="fab fa-twitter fa-3x text-light"></i></a>
+              <a href="#"><i class="fab fa-instagram fa-3x text-light"></i></a>
+            </div>
+            <p class="mt-4">Me encantaría escuchar de ti.</p>
+        </div>
+      </div>
+      
     </div>
-  </footer>
+</footer>
+<div class="inner-footer container">
+  <p class="lead text-center">&copy; 2024 All rights reserved - Caroline Sada Luna</p>
+</div>
+
+
+  <script>
+    // JavaScript para la validación
+    (function() {
+      'use strict';
+      window.addEventListener('load', function() {
+        var forms = document.getElementsByClassName('needs-validation');
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+  </script>
+
+
 
   <!-- Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

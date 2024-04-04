@@ -1,11 +1,12 @@
 /* Custom CSS */
 
 body {
-    background-image: url('../images/finance.svg'); 
+    background-image: url('../images/blue-10.svg');
     background-repeat: no-repeat;
-    background-size: cover; /* Opcional: ajusta el tamaño de la imagen al tamaño del body */
+    background-size: contain;
+    /* background-position: center left; */
     font-family: 'Poppins', sans-serif;
-    background-color:  #c6b6da;
+    background-color:  #E0E9F7;
 }
 
 .error-message {
@@ -13,10 +14,11 @@ body {
 }
 
 .navbar {
+    font-size: 20px;
     background-color: #fff;
 }
 .section {
-    padding: 100px 0;
+    padding: 100px 100px;
 }
 .section-heading {
     font-size: 36px;
@@ -24,9 +26,9 @@ body {
     text-align: center;
 }
 .feature-icon {
-    font-size: 48px;
-    color:  #15a5c9;
-    margin-bottom: 20px;
+    font-size: 52px;
+    color:  #1c0f8a;
+    margin-bottom: 10px;
 }
 .feature-heading {
     font-size: 24px;
@@ -35,12 +37,16 @@ body {
 }
 .feature-description {
     font-size: 16px;
-    color: #6c757d;
+    color: #034d92;
 }
 .cta-btn {
     font-size: 18px;
     font-weight: 600;
     padding: 15px 40px;
+}
+.testimonials .testimonials-item img {
+    max-width: 12rem;
+    box-shadow: 0 5px 5px #adb5bd;
 }
 .footer {
     background-color: #000000;
