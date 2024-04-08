@@ -1,16 +1,27 @@
 /* Custom CSS */
 
 body {
-    background-image: url('../images/blue-10.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    /* background-position: center left; */
     font-family: 'Poppins', sans-serif;
-    background-color:  #E0E9F7;
+    background-color: #fff;
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; /* Añadido para incluir márgenes y padding en el tamaño total del elemento */
 }
 
 .error-message {
     color: red;
+}
+
+#home {
+    background: linear-gradient(to bottom right, rgb(1, 3, 90), rgb(62, 142, 196));
+}
+
+#home h1 {
+    font-size: 70px;
+    background-image: linear-gradient(43deg, #417ad0 0%, #c850c8 46%, #ffcc70 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .navbar {
@@ -19,12 +30,13 @@ body {
 }
 .section {
     padding: 100px 100px;
-}
-.section-heading {
-    font-size: 36px;
-    margin-bottom: 30px;
     text-align: center;
 }
+
+#features{
+    background-color:#d2b4db;
+}
+
 .feature-icon {
     font-size: 52px;
     color:  #1c0f8a;
